@@ -96,12 +96,12 @@ public final class SQLiteJDBCConnector {
 					pf = pf.replaceAll("\\[[0-9]+\\]", "");
 				}
 				String[] pfs = null;
-				if(pf.contains(";")){
+				if (pf.contains(";")) {
 					pfs = pf.split(";");
-				}else{
-					pfs = new String[]{pf};
+				} else {
+					pfs = new String[] { pf };
 				}
-				
+
 				return pfs;
 
 			}
