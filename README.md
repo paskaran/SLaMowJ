@@ -57,6 +57,8 @@ the following (n-1)- words of the given firstWord, otherwise the method returns 
 This method returns all possible word combinations from the given word and its maxDepth and maxWidth followers.
 Take care by using this method with high numbers for maxDepth and/or maxWidth!
 
+Make sure to close the connection to the database by using this method: `closeLanguageModel()` 
+
 3. Example
 ----------
 An example code can be found within the main folder.
