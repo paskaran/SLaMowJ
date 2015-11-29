@@ -17,17 +17,17 @@ Before using the language model, you should train the database with text files.
 
 English/German languages are good for training of the database.
 But you can use any language you want, make sure that every sentence ends with 
-one of these characters "!, ?, COMMA, DOT". 
+one of these characters " **!**, **?**, **,** , **.** ". 
 Every word within the text has to be **seperated** by a **whitespace**.  
 
 1. Train a database
 -------------------
-For training the database you must use the Trainer Utility-Class:
+For training the database you have to use the Trainer.java Utility-Class:
 
 `Trainer.trainStandardEnglishMode("PATH_TO_DATABASE_WITHOUT_SUFFIX", TextReader.readFromFile("train.set"),
 					TrainerMode.WORD, Trainer.BIGRAM, true);`
-With this short code in your main method, you can train a database with the content of the "train.set" file.
-The created DB has after creation the suffix ".db" and is located within the database folder.
+With this short code, you can train a database with the content of the "train.set" file.
+The created database is located within the database folder.
 
 You can use three TrainerMode's:
 - SENTENCE
