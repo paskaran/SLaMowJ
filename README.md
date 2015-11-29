@@ -1,6 +1,6 @@
 SLaMowJ = Simple Language Model with Java 
 =========================================
-
+(MAVEN-Project)
 
 Version v1.0
 ------------
