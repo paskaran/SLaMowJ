@@ -34,7 +34,10 @@ You can use three TrainerMode's:
 - WORD
 - CHAR
 
-For displaying some informations while trainig set `Trainer.initDebugger();`
+For displaying some informations while trainig the database call `Trainer.initDebugger();`
+
+While training, the following (n-1)-grams of a word are always sorted by its count of occurrence. 
+That means the result you will get by calling the following methods, are always sorted by the most possible word.
 
 2. Using the database
 ---------------------
@@ -47,6 +50,7 @@ after this line of code you can access the database using the two methods:
 
 The method `String[] getGramFromModel(String first Word);` retrieves  if exists the  
 the following (n-1)- words of the given firstWord, otherwise the method returns null.
+
 
 `public String[] getGramsOfGrams(String firstWord, int maxWidth, int maxDepth);`
 
