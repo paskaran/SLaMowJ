@@ -5,7 +5,7 @@ SLaMowJ = Simple Language Model with Java
 Version v1.0
 ------------
 
-SLaMowJ is a simple n-gram language model framwork. 
+SLaMowJ is a simple n-gram language model framework. 
 With SLaMowJ a user has the possibility to create a  database which 
 contains words and their possible (n-1) following words. 
 (For more information about n-gram model see: https://en.wikipedia.org/wiki/N-gram)
